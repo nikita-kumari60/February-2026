@@ -1,0 +1,7 @@
+x = int(input())
+original = str(x)
+reverse = original[: :-1]
+if (original == reverse):
+    print("True")
+else:
+    print("False")
